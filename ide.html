@@ -1,0 +1,292 @@
+<!--이걸 보시는 여러분! 이건 IDE 데모이며, 동작하지 않습니다.-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ClICK HTML IDE</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+    <body>
+        <!--중요 스크립트-->
+        <script>
+            
+var checkUnload = true;
+
+$(window).on("beforeunload", function(){
+    if(checkUnload) return "오래된 웹브라우저로 브라우징 중이시군요! 업그레이드 후 이용하세요.";
+
+});
+            
+            function enterdialog(){
+                var retVal = prompt("텍스트를 입력하세요 : ", "텍스트");
+            }
+            
+            function auts() {
+  document.getElementById("autosave").innerHTML = "자동 저장: 켜짐";
+}
+            
+            function dangeroustask() {
+  confirm("작업을 시작하면 취소할 수 없습니다. 계속할까요?");
+}
+            
+            function sharegift(){
+                alert("초대장을 공유합니다. 이번 초대장의 링크는");
+                  alert(location.hostname + "/ide?saveid=asdf&with=guest");
+                confirm("입니다. 공유하시겠습니까?");
+            }
+            
+ // HTML 저장      
+     function saveTextAsFile() {
+     var text = document.getElementById("textArea").value;
+    text = text.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+    var blob = new Blob([text], { type: "text/plain"});
+    var anchor = document.createElement("a");
+    anchor.download = "index - CLICK HTML IDE.html";
+    anchor.href = window.URL.createObjectURL(blob);
+    anchor.target ="_blank";
+    anchor.style.display = "none"; // just to be safe!
+    document.body.appendChild(anchor);
+    anchor.click();
+    document.body.removeChild(anchor);
+}
+            
+             // Cpro 저장      
+     function CproAsFile() {
+     var text = document.getElementById("textArea").value;
+    text = text.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+    var blob = new Blob([text], { type: "text/plain"});
+    var anchor = document.createElement("a");
+    anchor.download = "index - CLICK HTML IDE 호환성 모드.cproprog";
+    anchor.href = window.URL.createObjectURL(blob);
+    anchor.target ="_blank";
+    anchor.style.display = "none"; // just to be safe!
+    document.body.appendChild(anchor);
+    anchor.click();
+    document.body.removeChild(anchor);
+}
+            
+            var wpcomment = document.getElementById('textArea');
+
+wpcomment.onkeyup = wpcomment.onkeypress = function(){
+    document.getElementById('prevCom').innerHTML = this.value; //실시간 미리보기
+}
+            
+            $('.DOC_TEXT').keyup(function (e){
+    var content = $(this).val();
+  $('#counter').html(""+content.length+" 바이트");   //글자수 카운트
+});
+            
+            
+ //플러그인
+                        function cse(){
+                confirm("Custom Search Engine(은)는 Google에서 제작했으며, CLICK HTML 당사는 이용 중 손실을 책임질 수 없습니다. 계속하시겠습니까?");
+                alert ("웹페이지에서 작업 완료 후 코드를 붙여넣어 주세요. 확인을 누르면 이동합니다.");
+               window.location.href = "https://cse.google.com/cse/create/new";              
+            }
+            
+                        function w3c(){
+                confirm("Webpage Validation(은)는 W3C에서 제작했으며, CLICK HTML 당사는 이용 중 손실을 책임질 수 없습니다. 계속하시겠습니까?");
+                alert ("파일(.html)을 다운로드 하고 업로드하세요.");
+               window.location.href = "https://validator.w3.org/#validate_by_upload";              
+            }
+                        function ads(){
+                confirm("Adsense(은)는 Google에서 제작했으며, CLICK HTML 당사는 이용 중 손실을 책임질 수 없습니다. 계속하시겠습니까?");
+                alert ("웹페이지에서 작업 완료 후 코드를 붙여넣어 주세요. 확인을 누르면 이동합니다.");
+               window.location.href = "https://www.google.com/adsense/signup";              
+            }
+                        
+
+            
+                                    function bootstrap(){
+                confirm("Bootstrap(은)는 Bootstrap에서 제작했으며, CLICK HTML 당사는 이용 중 손실을 책임질 수 없습니다. 계속하시겠습니까?");
+                confirm("Bootstrap 코드를 복사했습니다. <head>에 붙여넣어 주세요.");
+  var copyText = document.getElementById("bsLoader");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("복사 완료!");         
+            }
+        </script>
+<textarea id="bsLoader" style="display:none;"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"><script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script></textarea>
+<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+  <a class="navbar-brand" href="#"><img src="https://clickhtml.kro.kr/assets/img/icon/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+          <strong>
+        <a class="nav-link" href="#">SPA Project <span class="sr-only">(current)</span></a>
+          </strong>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          파일
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" id="autosave" onclick='auts()'>자동 저장: 꺼짐</a>
+          <a class="dropdown-item disabled" href="#">링크 공유: 사용 불가</a>
+            <a class="dropdown-item disabled" href="#">새 페이지 (N)</a>
+            <a class="dropdown-item" onclick=" dangeroustask();">리셋 (Ctrl+Shift+R)</a>
+            <a class="dropdown-item" href="#">열기 (O)</a>
+          <div class="dropdown-divider"></div>
+            <a class="dropdown-item" onclick='CproAsFile()'>C:PRO 앱으로 내보내기</a>
+          <a class="dropdown-item" onclick='saveTextAsFile()'>HTML로 내보내기</a>
+        </div>
+      </li>
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          찾기
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" onclick="enterdialog(); ">바꾸기 (R)</a>
+            <a class="dropdown-item" onclick="enterdialog();">찾기 (F)</a>
+            <a class="dropdown-item" onclick="enterdialog();">Go To (G)</a>
+        </div>
+      </li>
+                 <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          플러그인
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" onclick='cse()'>Custom Search Engine -Google</a>
+            <a class="dropdown-item" onclick='w3c()'>Webpage Validation - W3C</a>
+            <a class="dropdown-item" onclick='bootstrap()'>Bootstrap - Bootstrap</a>
+            <a class="dropdown-item" onclick='ads()'>Adsense - Google</a>
+            <a class="dropdown-item disabled" href="#">채널톡 - 채널톡</a>
+            <a class="dropdown-item disabled" href="#">YouTube Embed - Google</a>
+            <a class="dropdown-item disabled" href="#">Domain - GoDaddy</a>
+            <a class="dropdown-item disabled" href="#">Hosting - Hostinger</a>
+               <div class="dropdown-divider"></div>
+            <a class="dropdown-item disabled" href="#">플러그인 (.cpg) 업로드</a>
+            <a class="dropdown-item disabled" href="#">나의 플러그인</a>
+            <a class="dropdown-item disabled" href="#">플러그인 스토어</a>
+                     </div>
+      </li>
+                         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          블록코딩
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="http://editor.clickhtml.kro.kr/">자바스크립트</a>
+            <a class="dropdown-item" href="http://editor.clickhtml.kro.kr/">PHP</a>
+                     </div>
+      </li>
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          협동
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" onclick=" sharegift();">콜라보레이터 초대하기</a>
+            <a class="dropdown-item"  onclick=" sharegift();">초대장 공유하기</a>
+             <a class="dropdown-item" href="#">참여자: 0명</a>
+             <a class="dropdown-item" href="#">초대장: 0개</a>
+                     </div>
+      </li>
+                 <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          출시
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="http://aws.amazon.com">AWS (Amazon Web Service)</a>
+            <a class="dropdown-item" href="http://github.io">Github Pages</a>
+            <a class="dropdown-item"  onclick=" dangeroustask();">Git (Github, GitLab 등)</a>
+             <a class="dropdown-item" href="http://azure.microsoft.com">Azure</a>
+            <a class="dropdown-item"  onclick=" dangeroustask();">Heroku</a>
+            <a class="dropdown-item" href="http://ide.goorm.io">구름IDE 컨테이너</a>
+             <a class="dropdown-item"  onclick=" dangeroustask();">FTP</a>
+            <a class="dropdown-item"  onclick=" dangeroustask();">SFTP (SSH FTP)</a>
+            
+                     </div>
+      </li>
+                 <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          도움말
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">01. CLICK HTML 시작하기</a>
+            <a class="dropdown-item" href="#">02. 구글 CSE 적용하기</a>
+             <a class="dropdown-item" href="#">뉴스</a>
+                     </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+                      <button class="btn btn-outline-warning my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal">새로고침</button>
+        <!--프리미엄 결제 유도창 (나가시겠습니까에서 취소 누르면 나타남)-->
+        
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">프리미엄으로 업그레이드하세요!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <center>
+                      <img src="https://clickhtml.kro.kr/assets/img/service/service-img1.png">
+            <br>
+              <h2>가벼운 요금제</h2>
+                      <img src="https://clickhtml.kro.kr/assets/img/service/service-img2.png">
+            <br>
+              <h2>더 아름다운 전문가 템플릿</h2>
+
+                  <img src="https://clickhtml.kro.kr/assets/img/service/service-img3.png">
+            <br>
+              <h2>호스팅, 여러 페이지 사용!</h2>모두가 합하여 <h2>준비중</h2>이라는 가격에 만날 수 있습니다!</center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">건너뛰기</button>
+        <button type="button" class="btn btn-warning">지금 업그레이드</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <!-- HTML 파일 세이브 -->
+              <button class="btn btn-outline-light my-2 my-sm-0" type="submit" onclick="saveTextAsFile()">바로 저장하기</button>
+
+
+    </form>
+  </div>
+</nav>
+                                                                                        
+                                                                                        
+
+
+  </div>
+</div>
+
+  <div class="row" style="background-color:black;color:white;">
+    <div class="col-md-8"> <!-- leftside -->
+      <div class="row">
+        <div class="col-md-12">        
+            <!--상단 제목 표시줄-->
+            <span style="color: white;background: black;font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;">index.html <span class="badge badge-warning">PREMIUM</span></span>
+            <!--코딩 Area (라이브 프리뷰 코드/저장지원) -->
+            <textarea onkeyup="document.getElementById('prevCom').innerHTML = this.value" id="textArea" style="height: 576px;color: white;background: #2b2b2b;width:100%;font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;">
+</textarea>
+</div>
+      </div>
+      <div class="row">
+          <!-- 계정정보 (하단에 위치)-->
+        <div class="col-md-6" style="background: linear-gradient(to bottom, #1C7CE0, #150051);color:white;"><h3>나의 플랜:<br>싱글 페이지</h3></div>
+        <div class="col-md-6" style="background-color:black;color:white;"><strong>리소스 사용량</strong><br><ul><li>저장공간: <span style="color:#aaa;" id="counter">0</span>바이트</li></ul></div>
+      </div>
+    </div>
+      <!--라이브 미리보기-->
+    <div class="col-md-4" id="prevCom" style="background-color:white;color:black;"><br>미리보기가 여기에 표시됩니다.<br>코드를 작성해보세요</div> <!-- rightside -->
+  </div> 
+             <span style="display:inline-block;transform: rotate(180deg);">&copy;</span> 2020 Blackcats4567, Camt39, redev S, ClICK HTML All rights reserved
+    </body>
+</html>
