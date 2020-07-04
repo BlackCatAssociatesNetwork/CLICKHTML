@@ -1,0 +1,10 @@
+Ban Test. My phone is unable to use. So I would keep this banned.
+Experiment 1 - A Href
+<a href="about:blank">It works!</a>
+Experiment 2 - Line
+/n Method: H\nello
+br method: h<br>ello
+Experiment 3 - bold
+b method: <b>lol</b>
+strong method:<strong>lol</strong>
+done.
