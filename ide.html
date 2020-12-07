@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <head>
 <title>Select Language</title>
+<script language="JavaScript">
+		var SetTime = 10;		
+		function msg_time() {							ms = Math.floor(SetTime % 60) + " sec";
+var msg = "<h2>Auto select English after <font color='blue'>" + ms + "</font></h2>";
+document.all.ViewTimer.innerHTML = msg;
+SetTime--;	
+	if (SetTime < 0) {											clearInterval(tid);						
+window.location.href = 'https://clickhtmlide.digncore.xyz/en'⁰;
+			}
+}
+		window.onload = function TimerStart(){ tid=setInterval('msg_time()',1000) };
+</script>
 </head>
 <body>
 <center>
 <font face=""><h1> <a href = "https://clickhtmlide.digncore.xyz/en" target = "_self">English</a></h1>
 <font face=""><h1> <a href = "https://clickhtmlide.digncore.xyz" target = "_self">한국어</a></h1>
+<div id="ViewTimer"></div>
 </center>
 </html>
