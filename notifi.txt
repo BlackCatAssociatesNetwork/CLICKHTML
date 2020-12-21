@@ -1,1 +1,11 @@
+[Server Maintenance Information]
+Server access is restricted until noon on December 22, 2020 (GMT+9) to back up the server data. 
+We apologize for the inconvenience.
 
+[서버 점검 안내]
+서버의 데이터를 백업하기 위해 2020년 12월 22일 정오(GMT+9) 까지 서버 접속이 제한됩니다.
+이용에 불편을 드려 죄송합니다.
+
+[Informazioni sulla manutenzione del server]
+L'accesso al server è limitato fino a mezzogiorno del 22 dicembre 2020 (GMT + 9) per eseguire il backup dei dati del server.
+Ci scusiamo per il disagio.
