@@ -1,42 +1,8 @@
-*This article is summarized in the attached file.*
-
 {English}
-
-CLICK HTML 2.0 has a reporting function.
-However, many people do not know it and report it to my email.
-In this news, we will show you how to report a project.
-
-[Simple Way]
-1. From the list of shared projects, press and hold the project you want to report.
-2. Press Report
-3. Press Report again.
-
-If you make a false report, your account may be suspended. Please report it carefully.
-
+When Digncore Account support, which is applied from CLICK HTML 3.0, is in progress, all existing CLICK HTML accounts will be deleted and all of them will be converted to Digncore accounts. And in versions before 3.0, you can no longer connect to the server. The reason for this change in the accounting system is to make it cleaner and increase the interoperability between apps by integrating accounts for various apps and games and integrating premium benefits. Once this is done, we will send an email to all tier owners, so we can give you premium badges and tier to your Digncore account. So don't worry!
 
 {Korean}
-
-CLICK HTML 2.0에는 신고기능이 있습니다.
-하지만 많은 분들이 모르고 제 이메일로 신고합니다.
-이번 뉴스에서는 프로젝트를 신고하는 방법을 알려드리겠습니다.
-
-[간단한 방법]
-1. 공유된 프로젝트 목록에서 신고할 프로젝트를 길게 누릅니다.
-2. Report를 누릅니다
-3. 또다시 Report를 누릅니다.
-
-허위로 신고할 경우 계정이 정지될 수 있으니 신중하게 신고해 주세요.
-
+CLICK HTML 3.0 부터 적용되는 Digncore Account 지원이 진행되면, 기존 CLICK HTML의 계정들이 모두 삭제되고, 모두 Digncore 계정으로 전환됩니다. 그리고 3.0 이전 버전에서는 더 이상 서버에 접속이 불가능하게 됩니다. 이러한 계정 시스템 변경을 진행하는 이유는 다양한 앱과 게임의 계정 통합, 프리미엄 혜택 통합 등을 진행하여 더 깔끔하고 앱 들 간의 연동성을 늘리기 위해서입니다. 이것이 진행되면 모든 등급 소유자들에게 메일이 전송되고, Digncore 계정으로 프리미엄 뱃지와 등급을 드릴 수 있도록 하겠습니다. 그러니 걱정은 하지 마세요!
 
 {Italiano}
-
-CLICK HTML 2.0 ha una funzione di reporting.
-Tuttavia, molte persone non lo sanno e lo segnalano alla mia e-mail.
-In questa notizia, ti mostreremo come segnalare un progetto.
-
-[Modo semplice]
-1. Dall'elenco dei progetti condivisi, tenere premuto il progetto che si desidera segnalare.
-2. Premere Rapporto
-3. Premere di nuovo Rapporto.
-
-Se fai una segnalazione falsa, il tuo account potrebbe essere sospeso.  Per favore segnalalo attentamente.
+Quando il supporto dell'account Digncore, applicato da CLICK HTML 3.0, è in corso, tutti gli account CLICK HTML esistenti verranno eliminati e tutti verranno convertiti in account Digncore. E nelle versioni precedenti alla 3.0, non è più possibile connettersi al server. Il motivo di questo cambiamento nel sistema di contabilità è renderlo più pulito e aumentare l'interoperabilità tra le app integrando account per varie app e giochi e integrando vantaggi premium. Una volta fatto ciò, invieremo un'e-mail a tutti i proprietari di livello, in modo che possiamo darti badge premium e livello al tuo account Digncore. Quindi non preoccuparti!
