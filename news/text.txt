@@ -1,8 +1,23 @@
 {English}
-When Digncore Account support, which is applied from CLICK HTML 3.0, is in progress, all existing CLICK HTML accounts will be deleted and all of them will be converted to Digncore accounts. And in versions before 3.0, you can no longer connect to the server. The reason for this change in the accounting system is to make it cleaner and increase the interoperability between apps by integrating accounts for various apps and games and integrating premium benefits. Once this is done, we will send an email to all tier owners, so we can give you premium badges and tier to your Digncore account. So don't worry!
+Q. What will happen to CLICK HTML in the future?
+A. In order to eliminate all the shortcomings of the existing CLICK HTML, we will introduce a new look of CLICK HTML by rewriting it.
+Q. I can't see the source code of the project after the update
+A. Sorry. When doing the update, I accidentally set the text color to white. There are letters, so press and hold to copy
+Q. Where can I contact CLICK HTML?
+A. Please contact us at help@blackcats4567.com
 
 {Korean}
-CLICK HTML 3.0 부터 적용되는 Digncore Account 지원이 진행되면, 기존 CLICK HTML의 계정들이 모두 삭제되고, 모두 Digncore 계정으로 전환됩니다. 그리고 3.0 이전 버전에서는 더 이상 서버에 접속이 불가능하게 됩니다. 이러한 계정 시스템 변경을 진행하는 이유는 다양한 앱과 게임의 계정 통합, 프리미엄 혜택 통합 등을 진행하여 더 깔끔하고 앱 들 간의 연동성을 늘리기 위해서입니다. 이것이 진행되면 모든 등급 소유자들에게 메일이 전송되고, Digncore 계정으로 프리미엄 뱃지와 등급을 드릴 수 있도록 하겠습니다. 그러니 걱정은 하지 마세요!
+Q. 앞으로 CLICK HTML은 어떻게 되나요?
+A. 기존 CLICK HTML의 단점을 모두 없애기 위해 리라이트 작업을 진행하여 새로운 모습의 CLICK HTML을 소개할 것입니다.
+Q. 업데이트 이후로 프로젝트의 소스코드가 보이지 않아요
+A. 죄송합니다. 업데이트 작업을 할때 실수로 글자 색을 흰색으로 지정했었습니다. 글자는 있으니 꾹 눌러서 복사해보세요
+Q. CLICK HTML 문의는 어디에다 하나요?
+A. help@blackcats4567.com 에 문의해주세요
 
 {Italiano}
-Quando il supporto dell'account Digncore, applicato da CLICK HTML 3.0, è in corso, tutti gli account CLICK HTML esistenti verranno eliminati e tutti verranno convertiti in account Digncore. E nelle versioni precedenti alla 3.0, non è più possibile connettersi al server. Il motivo di questo cambiamento nel sistema di contabilità è renderlo più pulito e aumentare l'interoperabilità tra le app integrando account per varie app e giochi e integrando vantaggi premium. Una volta fatto ciò, invieremo un'e-mail a tutti i proprietari di livello, in modo che possiamo darti badge premium e livello al tuo account Digncore. Quindi non preoccuparti!
+Q. Che cosa accadrà a CLICK HTML in futuro?
+A. Per eliminare tutti i difetti del CLICK HTML esistente, introdurremo un nuovo aspetto di CLICK HTML riscrivendolo.
+Q. Non riesco a vedere il codice sorgente del progetto dopo l'aggiornamento
+A. Scusa. Durante l'aggiornamento, ho impostato accidentalmente il colore del testo su bianco. Ci sono lettere, quindi tieni premuto per copiare
+Q. Dove posso contattare CLICK HTML?
+A. Contattaci all'indirizzo help@blackcats4567.com
