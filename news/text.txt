@@ -1,23 +1,8 @@
 {English}
-Q. What will happen to CLICK HTML in the future?
-A. In order to eliminate all the shortcomings of the existing CLICK HTML, we will introduce a new look of CLICK HTML by rewriting it.
-Q. I can't see the source code of the project after the update
-A. Sorry. When doing the update, I accidentally set the text color to white. There are letters, so press and hold to copy
-Q. Where can I contact CLICK HTML?
-A. Please contact us at help@blackcats4567.com
+Hello, this is Blackcats4567. As a result of a vote at Team Blackcats4567's 5th anniversary celebration, we decided to remake CLICK HTML. The existing CLICK HTML stopped developing and decided not to close the server. For privacy reasons, those who wish to hide their emails from shared projects can request email removal at help@blackcats4567. For example, you can request that ppouqqurun@gmail.com appear as ppouqqurun_developers. thank you.
 
 {Korean}
-Q. 앞으로 CLICK HTML은 어떻게 되나요?
-A. 기존 CLICK HTML의 단점을 모두 없애기 위해 리라이트 작업을 진행하여 새로운 모습의 CLICK HTML을 소개할 것입니다.
-Q. 업데이트 이후로 프로젝트의 소스코드가 보이지 않아요
-A. 죄송합니다. 업데이트 작업을 할때 실수로 글자 색을 흰색으로 지정했었습니다. 글자는 있으니 꾹 눌러서 복사해보세요
-Q. CLICK HTML 문의는 어디에다 하나요?
-A. help@blackcats4567.com 에 문의해주세요
+안녕하세요, Blackcats4567 입니다. Team Blackcats4567의 5주년 기념 행사에서 진행된 투표 결과, CLICK HTML을 리메이크하기로 했습니다. 기존 CLICK HTML은 개발을 중단하고 서버는 닫지 않기로 하였습니다. 개인정보 보호를 위해 help@blackcats4567에 공유 프로젝트에서 자신의 이메일을 가리고 싶은 분들은 이메일 제거를 신청할 수 있습니다. 예를 들어 ppouqqurun@gmail.com을 ppouqqurun_developers 으로 표시되도록 요청하실 수 있습니다. 감사합니다.
 
 {Italiano}
-Q. Che cosa accadrà a CLICK HTML in futuro?
-A. Per eliminare tutti i difetti del CLICK HTML esistente, introdurremo un nuovo aspetto di CLICK HTML riscrivendolo.
-Q. Non riesco a vedere il codice sorgente del progetto dopo l'aggiornamento
-A. Scusa. Durante l'aggiornamento, ho impostato accidentalmente il colore del testo su bianco. Ci sono lettere, quindi tieni premuto per copiare
-Q. Dove posso contattare CLICK HTML?
-A. Contattaci all'indirizzo help@blackcats4567.com
+Ciao, sono Blackcats4567. A seguito di una votazione alla celebrazione del quinto anniversario del Team Blackcats4567, abbiamo deciso di rifare CLICK HTML. L'HTML CLIC esistente ha smesso di svilupparsi e ha deciso di non chiudere il server. Per motivi di privacy, coloro che desiderano nascondere le proprie e-mail dai progetti condivisi possono richiedere la rimozione delle e-mail all'indirizzo help@blackcats4567. Ad esempio, puoi richiedere che ppouqqurun@gmail.com appaia come ppouqqurun_developers. grazie.
